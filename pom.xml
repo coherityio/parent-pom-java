@@ -220,7 +220,7 @@
 					<artifactId>maven-surefire-plugin</artifactId>
 					<version>${maven-surefire-plugin.version}</version>
 					<configuration>
-						<useSystemClassLoader>false</useSystemClassLoader>
+						<!-- useSystemClassLoader>false</useSystemClassLoader -->
 					</configuration>
 				</plugin>
 
